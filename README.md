@@ -2,14 +2,14 @@
 
 Ce dépôt contient les scripts et fichiers de configuration permettant de déployer une infrastructure complète avec serveur central (SRV) et trois clients (C1, C2, C3), dans le cadre du devoir de virtualisation réseau.
 
-## 📦 Objectif
+##  Objectif
 
 > L'objectif est de construire une maquette réseau complète avec :
 - services réseau (DHCP, DNS, SSH, routage, etc.),
 - services systèmes (LDAP, quotas, NFS, mail),
 - déploiement d'une application web Java (films) en 2 instances via Docker Compose.
 
-## 🔧 Déploiement
+##  Déploiement
 
 Les scripts sont fournis pour automatiser l’installation et la configuration sur les VMs.
 
@@ -17,7 +17,7 @@ Les VMs prêtes à l’emploi sont disponibles ici :
 
 🔗 [Télécharger les machines virtuelles (.ova)](https://1drv.ms/f/c/5968be9927cfc2a1/EpWS9nbqJXlIkjoOMUPNGd8BrbnhdI3zwNEK9Fg8yAq_rg?e=tx7lLw)
 
-## 📁 Structure du dépôt
+##  Structure du dépôt
 
 ```
 maquette-cloud/
@@ -39,7 +39,7 @@ maquette-cloud/
 └── README.md
 ```
 
-## 🧪 Services en place
+##  Services en place
 
 ✅ DHCP  
 ✅ DNSMasq  
@@ -52,6 +52,6 @@ maquette-cloud/
 ✅ Routage & NAT  
 ✅ Application de gestion de films (SpringBoot + MySQL + HAProxy) déployée en 2 instances avec Docker Compose
 
-## 👨‍💻 Auteur
+##  Auteur
 
 Projet réalisé par **Ouattara Aristide** dans le cadre du module Virtualisation Réseau et Services.
